@@ -24,7 +24,7 @@
 
         <!-- wp:column {"verticalAlignment":"top","width":"60%"} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:60%"><!-- wp:image {"id":126,"aspectRatio":"3/4","scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-rounded","style":{"color":{"duotone":"var:preset|duotone|duotone-5"}}} -->
-            <figure class="wp-block-image size-large is-style-rounded"><img src="http://localhost/wordpress-6.8.2/wp-content/uploads/2025/09/land-pexels-maria-salazar-303506-879010-1024x682.webp" alt="" class="wp-image-126" style="aspect-ratio:3/4;object-fit:cover" /></figure>
+            <figure class="wp-block-image size-large is-style-rounded"><img src="https://picsum.photos/1200/600?random=1&blur=3" alt="" class="wp-image-126" style="aspect-ratio:3/4;object-fit:cover" /></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
