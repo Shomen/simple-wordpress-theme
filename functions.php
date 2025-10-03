@@ -14,6 +14,7 @@ function sm_startup_stylesheet() {
     
     // Enqueue theme's main stylesheet
     wp_enqueue_style( 'sm-startup-style', get_stylesheet_uri(), array('bootstrap'), '1.0.0' );
+    wp_enqueue_style( 'theme-style', get_stylesheet_uri(), [], filemtime(get_template_directory(). '/style.css'), 'all' );
 }
 
 add_action( 'wp_enqueue_scripts', 'sm_startup_stylesheet' );

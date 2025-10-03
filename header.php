@@ -6,7 +6,12 @@
     <title>Your Startup</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
+<?php
+    if ( function_exists( 'wp_body_open' ) ):
+        wp_body_open(); 
+    endif;
+?>
 <header class="header text-bg-primary p-3">
     <div class="container">
         <div class="row align-items-center">
